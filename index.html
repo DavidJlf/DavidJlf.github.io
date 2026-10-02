@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Linfeng Jiang (Dav1) - AI security researcher working on adversarial generation and robust neural computation." />
+  <meta name="theme-color" content="#071827" />
+  <title>Linfeng Jiang · Dav1 | AI Security Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top"><span class="brand-mark">LJ</span><span class="brand-name">Linfeng Jiang · Dav1</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#research" data-i18n="navResearch">Research</a><a href="#publications" data-i18n="navPublications">Publications</a><a href="#projects" data-i18n="navProjects">Projects</a><a href="#contact" data-i18n="navContact">Contact</a>
+        <a class="language-toggle" id="language-toggle" href="?lang=zh#top" aria-label="切换为中文">中文</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="heroEyebrow">AI Security · Generative Models · Robust AI</p>
+        <p class="name-line">蒋霖锋 · Linfeng Jiang · Dav1</p>
+        <h1 id="hero-title" data-i18n="heroTitle">Building controllable and robust AI systems.</h1>
+        <p class="hero-intro" data-i18n="heroIntro">I am an undergraduate researcher at the University of Maryland interested in adversarial attacks and artificial intelligence.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#research" data-i18n="explore">Explore Concept-Based Attacks</a><a class="button button-secondary" href="assets/Linfeng_Jiang_Resume.pdf" target="_blank" rel="noreferrer" data-i18n="resume">English Résumé</a><a class="button button-secondary" href="https://github.com/DavidJlf" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+      </div>
+      <aside class="hero-panel reveal" aria-label="Research profile">
+        <div class="monogram" aria-hidden="true">Dav</div>
+        <div class="profile-line"><span data-i18n="focusLabel">Current focus</span><strong data-i18n="focusValue">Adversarial generation</strong></div>
+        <div class="profile-line"><span data-i18n="basedLabel">Based in</span><strong data-i18n="basedValue">College Park, Maryland</strong></div>
+        <div class="status"><span></span><span data-i18n="openStatus">Actively seeking PhD positions</span></div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="research" aria-labelledby="research-title">
+      <div class="section-heading reveal"><p class="eyebrow" data-i18n="researchEyebrow">Research</p><h2 id="research-title" data-i18n="researchTitle">Research I am pursuing</h2><p data-i18n="researchLead">My work connects generative models, adversarial learning, and robust neural computation.</p></div>
+      <div class="research-grid">
+        <article class="research-card research-card-featured reveal"><div class="card-index">01</div><div>
+          <p class="card-kicker"><span data-i18n="guided">Under the guidance of</span> <a class="advisor-link" href="https://andi.ac" target="_blank" rel="noreferrer"><strong>Andi Zhang</strong></a> · <span data-i18n="warwick">University of Warwick</span></p>
+          <h3 data-i18n="carrierResearchTitle">Subject-Preserving Adversarial Image Generation</h3>
+          <p data-i18n="carrierResearchP1">I develop and evaluate adversarial-generation pipelines for personalized diffusion models, including segmentation-guided construction, classifier-guided latent optimization, subject-specific LoRA integration, and reproducible GPU experiments.</p>
+          <p data-i18n="carrierResearchP2">I design controlled carrier conditions, implement attack variants, run preservation and transfer evaluations, and analyze how attack evidence is distributed outside the primary subject.</p>
+          <div class="tag-row"><span>Diffusion models</span><span>LoRA</span><span>Segmentation</span><span>Adversarial ML</span></div>
+        </div></article>
+        <article class="research-card reveal"><div class="card-index">02</div><div>
+          <p class="card-kicker" data-i18n="ongoing">Ongoing research</p><h3 data-i18n="snnTitle">Robust Neural Computation</h3>
+          <p data-i18n="snnP1">I implement matched neural-network evaluation code, automate experiments across checkpoints and configurations, and debug attack, detection, and reprogramming pipelines.</p>
+          <p data-i18n="snnP2">My analysis covers robustness, detector behavior, temporal activity, latency, and operation cost while keeping the experimental framework extensible to new data and attack families.</p>
+          <div class="tag-row"><span>PyTorch</span><span>SNNs</span><span>Reprogramming</span><span>Robustness evaluation</span></div>
+        </div></article>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="publications" aria-labelledby="publications-title"><div class="shell">
+      <div class="section-heading reveal"><p class="eyebrow" data-i18n="publicationsEyebrow">Publications</p><h2 id="publications-title" data-i18n="publicationsTitle">Selected research</h2></div>
+      <div class="publication-list">
+        <article class="publication publication-featured reveal"><div class="publication-year">2027</div><div>
+          <span class="status-label" data-i18n="carrierStatus">First author · ICLR 2027 submission under review</span>
+          <h3>Let the Carrier Carry the Attack: Preserving the Subject in Adversarial Image Generation</h3>
+          <p data-i18n="carrierSummary">A carrier-guided framework for preserving personalized subjects while supporting targeted adversarial image generation and cross-model transfer.</p>
+          <figure class="paper-figure"><img src="assets/carrier-figure-1.png" alt="Qualitative comparison of No-Carrier, Non-Target Carrier, and Target Carrier adversarial image generation" /><figcaption data-i18n="figureCaption">Figure 1. Qualitative comparison of the No-Carrier baseline and carrier-based conditions.</figcaption></figure>
+        </div></article>
+        <article class="publication redacted-publication reveal"><div class="publication-year">2027</div><div>
+          <div class="masked-paper-title" aria-label="AISTATS paper title visually masked before the deadline"><h3>Rethinking Inter-LoRA Orthogonality in Adapter Merging: Insights from Orthogonal Monte Carlo Dropout</h3><div class="mosaic-overlay" aria-hidden="true"></div></div>
+          <p class="redaction-note" data-i18n="redactionNote">Title visually masked until the submission deadline.</p>
+          <span class="submission-visible">AISTATS — on submission</span>
+        </div></article>
+      </div>
+    </div></section>
+
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal"><p class="eyebrow" data-i18n="projectsEyebrow">Selected projects</p><h2 id="projects-title" data-i18n="projectsTitle">From models to practical systems</h2></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><span class="project-type" data-i18n="ml">Machine learning</span><h3 data-i18n="pvTitle">Photovoltaic Output Forecasting</h3><p data-i18n="pvText">A CNN-LSTM pipeline for ultra-short-term time-series prediction and analysis of photovoltaic power output.</p><span class="project-meta">Python · CNN-LSTM · Time series</span></article>
+        <article class="project-card reveal"><span class="project-type" data-i18n="aiSecurity">AI security</span><h3 data-i18n="stegTitle">Context-Aware Steganographic Text Generation</h3><p data-i18n="stegText">Context-aware language generation for carrying hidden information while preserving natural text.</p><span class="project-meta">NLP · Generative AI · Steganography</span></article>
+        <article class="project-card reveal"><span class="project-type" data-i18n="securitySystems">Security systems</span><h3 data-i18n="dashboardTitle">Centralized Security Dashboard</h3><p data-i18n="dashboardText">An executive-facing dashboard plan for consolidating security events, vulnerabilities, and organizational risk signals.</p><span class="project-meta">Dashboard design · Security · Project planning</span></article>
+        <article class="project-card reveal"><span class="project-type" data-i18n="responsibleAI">Responsible AI</span><h3>NIST AI Risk Management Accessibility</h3><p data-i18n="nistText">Concise inductive and deductive approaches for making AI risk-management concepts easier to apply in model assessment.</p><span class="project-meta">NIST AI RMF · Model assessment</span></article>
+      </div>
+    </section>
+
+    <section class="contact shell" id="contact" aria-labelledby="contact-title"><div class="contact-card reveal">
+      <div><p class="eyebrow" data-i18n="contactEyebrow">Contact</p><h2 id="contact-title" data-i18n="contactTitle">Interested in working together?</h2><p data-i18n="contactText">I am actively seeking PhD positions and welcome research collaborations in AI and AI security.</p></div>
+      <div class="contact-actions"><a class="button button-light" href="mailto:ljiang19@umd.edu">ljiang19@umd.edu</a><span class="wechat">WeChat · dj884290</span><a class="text-link" href="https://github.com/DavidJlf" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+    </div></section>
+  </main>
+  <section class="fandom shell" aria-label="Beyond research">
+    <span class="fandom-label" data-i18n="fandomLabel">Beyond research</span>
+    <a class="crest-link" href="https://www.instagram.com/cristiano/" target="_blank" rel="noreferrer" aria-label="Cristiano Ronaldo on Instagram"><img src="assets/manchester-united-crest.svg" alt="Manchester United crest" /></a>
+    <span class="fandom-text" data-i18n="fandomText">Manchester United & Cristiano Ronaldo fan</span>
+    <span class="flag-crossed" role="img" aria-label="Crossed-out Portugal flag">🇵🇹</span>
+  </section>
+  <footer class="footer shell"><p>© <span id="year">2026</span> Linfeng Jiang · 蒋霖锋 · Dav1</p><a href="#top" data-i18n="backTop">Back to top ↑</a></footer>
+</body>
+</html>
