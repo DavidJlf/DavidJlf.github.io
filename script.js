@@ -6,7 +6,7 @@ const languageToggle = document.querySelector("#language-toggle");
 const zh = {
   skip: "跳到主要内容", navResearch: "研究", navPublications: "论文", navProjects: "项目", navTeaching: "教学", navContact: "联系",
   heroEyebrow: "AI 安全 · 生成模型 · 鲁棒人工智能", heroTitle: "构建更可控、更鲁棒的人工智能系统。",
-  heroIntroBefore: "我是马里兰大学本科研究人员，目前在 ", heroIntroAfter: " 的指导下开展对抗攻击及相关人工智能研究。",
+  heroIntroBefore: "我是马里兰大学本科学生，目前在 ", heroIntroAfter: " 的指导下开展对抗攻击及相关人工智能研究。",
   explore: "查看我的研究", resume: "简历", focusLabel: "当前重点", focusValue: "对抗生成", basedLabel: "所在地", basedValue: "美国马里兰州 College Park",
   openStatus: "正在积极寻找博士岗位",
   researchEyebrow: "研究", researchTitle: "正在推进的研究", researchLead: "我的工作连接生成模型、对抗学习与鲁棒神经计算。",
