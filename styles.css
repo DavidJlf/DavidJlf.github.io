@@ -555,6 +555,16 @@ h3 { font-size: 24px; }
 }
 
 .footer a { text-decoration: none; }
+.visit-counter {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+}
+.visit-counter img {
+  display: block;
+  width: auto;
+  height: 20px;
+}
 
 .fandom {
   min-height: 104px;
@@ -697,6 +707,7 @@ h3 { font-size: 24px; }
   .project-grid { grid-template-columns: 1fr; }
   .project-card { min-height: 0; }
   .fandom { min-height: 130px; flex-wrap: wrap; padding-block: 26px; }
+  .footer { min-height: 120px; flex-wrap: wrap; gap: 14px 22px; padding-block: 24px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
