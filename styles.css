@@ -558,12 +558,20 @@ h3 { font-size: 24px; }
 .visit-counter {
   display: inline-flex;
   align-items: center;
+  gap: 5px;
   min-height: 28px;
+  color: var(--muted);
+  font-weight: 600;
 }
 .visit-counter img {
   display: block;
   width: auto;
   height: 20px;
+}
+.visit-counter strong {
+  margin-left: -3px;
+  color: var(--navy);
+  font-size: 14px;
 }
 
 .fandom {

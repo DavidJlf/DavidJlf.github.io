@@ -23,7 +23,7 @@ const zh = {
   coinCategory: "网络安全", coinTitle: "COFE Coin 安全机制优化", coinText: "围绕 COFE Coin 的安全机制开展分析，梳理潜在系统风险，并提出增强其安全防护体系的改进方案。", coinMeta: "数字货币 · 安全分析 · 机制设计",
   securitySystems: "安全系统", dashboardTitle: "集中式安全态势仪表盘", dashboardText: "面向管理层设计安全仪表盘，集中展示安全事件、系统漏洞与组织风险等关键信息。",
   responsibleAI: "负责任人工智能", nistText: "以简洁的归纳与演绎方式呈现 AI 风险管理概念，帮助其更清晰地应用于模型评估。",
-  contactEyebrow: "联系", contactTitle: "联系我", contactText: "我正在积极寻找博士研究机会，也欢迎人工智能与 AI 安全方向的研究合作。", fandomLabel: "研究之外", fandomText: "曼联与克里斯蒂亚诺·罗纳尔多球迷", backTop: "返回顶部 ↑"
+  contactEyebrow: "联系", contactTitle: "联系我", contactText: "我正在积极寻找博士研究机会，也欢迎人工智能与 AI 安全方向的研究合作。", fandomLabel: "研究之外", fandomText: "曼联与克里斯蒂亚诺·罗纳尔多球迷", visitLabel: "总访问量", backTop: "返回顶部 ↑"
 };
 
 const original = {};
@@ -41,7 +41,7 @@ function setLanguage(language) {
   languageToggle.setAttribute("aria-label", isChinese ? "Switch to English" : "切换为中文");
   languageToggle.setAttribute("href", isChinese ? "?lang=en#top" : "?lang=zh#top");
   visitCounter.src = isChinese ? visitCounter.dataset.srcZh : visitCounter.dataset.srcEn;
-  visitCounter.alt = isChinese ? "总访问量" : "Total visits";
+  visitCounter.alt = isChinese ? "访问次数" : "Visit count";
   localStorage.setItem("portfolio-language", language);
 }
 
