@@ -555,6 +555,14 @@ h3 { font-size: 24px; }
 }
 
 .footer a { text-decoration: none; }
+.visit-total {
+  color: var(--muted);
+  white-space: nowrap;
+}
+.visit-total strong {
+  color: var(--navy);
+  font-weight: 700;
+}
 .fandom {
   min-height: 104px;
   display: flex;
