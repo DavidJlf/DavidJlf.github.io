@@ -19,7 +19,7 @@ const zh = {
   carrierSummary: "提出一种由 Carrier 引导的对抗生成框架，在实现定向攻击与跨模型迁移的同时，尽可能保留个性化主体特征。",
   figureCaption: "图 1：No-Carrier 基线与不同 Carrier 设置下的定性结果对比。", redactionNote: "因投稿尚未截止，论文标题暂作模糊处理。",
   projectsEyebrow: "代表项目", projectsTitle: "从算法模型到实际应用", ml: "机器学习", pvTitle: "超短期光伏功率预测", pvText: "基于 CNN-LSTM 构建光伏功率超短期时间序列预测与分析流程。",
-  aiSecurity: "AI 安全", stegTitle: "上下文感知的文本隐写生成", stegText: "在保持文本自然性与语境连贯性的同时，将隐藏信息嵌入生成文本。",
+  coinCategory: "网络安全", coinTitle: "COFE Coin 安全机制优化", coinText: "围绕 COFE Coin 的安全机制开展分析，梳理潜在系统风险，并提出增强其安全防护体系的改进方案。", coinMeta: "数字货币 · 安全分析 · 机制设计",
   securitySystems: "安全系统", dashboardTitle: "集中式安全态势仪表盘", dashboardText: "面向管理层设计安全仪表盘，集中展示安全事件、系统漏洞与组织风险等关键信息。",
   responsibleAI: "负责任人工智能", nistText: "以简洁的归纳与演绎方式呈现 AI 风险管理概念，帮助其更清晰地应用于模型评估。",
   contactEyebrow: "联系", contactTitle: "联系我", contactText: "我正在积极寻找博士研究机会，也欢迎人工智能与 AI 安全方向的研究合作。", fandomLabel: "研究之外", fandomText: "曼联与克里斯蒂亚诺·罗纳尔多球迷", backTop: "返回顶部 ↑"
