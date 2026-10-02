@@ -563,15 +563,16 @@ h3 { font-size: 24px; }
   color: var(--muted);
   font-weight: 600;
 }
-.visit-counter img {
-  display: block;
-  width: auto;
-  height: 20px;
-}
 .visit-counter strong {
-  margin-left: -3px;
   color: var(--navy);
   font-size: 14px;
+}
+.visit-counter-pixel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .fandom {

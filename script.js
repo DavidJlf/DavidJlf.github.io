@@ -2,7 +2,6 @@ const header = document.querySelector(".site-header");
 const menuButton = document.querySelector(".menu-button");
 const navLinks = document.querySelector(".nav-links");
 const languageToggle = document.querySelector("#language-toggle");
-const visitCounter = document.querySelector("#visit-counter");
 
 const zh = {
   skip: "跳转到主要内容", navResearch: "研究方向", navPublications: "论文", navProjects: "项目", navTeaching: "助教经历", navContact: "联系我",
@@ -40,8 +39,6 @@ function setLanguage(language) {
   languageToggle.textContent = isChinese ? "EN" : "中文";
   languageToggle.setAttribute("aria-label", isChinese ? "Switch to English" : "切换为中文");
   languageToggle.setAttribute("href", isChinese ? "?lang=en#top" : "?lang=zh#top");
-  visitCounter.src = isChinese ? visitCounter.dataset.srcZh : visitCounter.dataset.srcEn;
-  visitCounter.alt = isChinese ? "访问次数" : "Visit count";
   localStorage.setItem("portfolio-language", language);
 }
 
