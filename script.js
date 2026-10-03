@@ -6,7 +6,7 @@ const languageToggle = document.querySelector("#language-toggle");
 const zh = {
   skip: "跳转到主要内容", navResearch: "研究方向", navPublications: "论文", navProjects: "项目", navTeaching: "助教经历", navContact: "联系我",
   heroEyebrow: "AI 安全 · 生成模型 · 鲁棒人工智能", heroTitle: "致力于构建可控、鲁棒的人工智能系统。",
-  heroIntroBefore: "我是马里兰大学本科生，目前在 ", heroIntroAfter: " 的指导下从事对抗攻击及相关人工智能研究。",
+  heroIntroBefore: "我是马里兰大学信息科学与高级网络安全方向本科生，目前在 ", heroIntroAfter: " 的指导下从事对抗攻击及相关人工智能研究。",
   explore: "了解我的研究", resume: "简历", focusLabel: "研究重点", focusValue: "对抗生成", basedLabel: "现居", basedValue: "美国马里兰州大学公园市",
   openStatus: "正在积极寻找博士研究机会",
   researchEyebrow: "研究方向", researchTitle: "当前研究", researchLead: "我的研究聚焦生成模型、对抗机器学习与神经计算鲁棒性。",
