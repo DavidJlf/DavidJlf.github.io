@@ -395,6 +395,30 @@ h3 { font-size: 24px; }
 
 .publication h3 { margin-bottom: 8px; }
 
+.paper-title-link {
+  color: inherit;
+  text-decoration-color: rgba(29, 91, 134, 0.35);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.paper-title-link:hover,
+.paper-title-link:focus-visible {
+  color: var(--blue);
+  text-decoration-color: currentColor;
+}
+
+.paper-link {
+  display: inline-flex;
+  margin: 2px 0 18px;
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.paper-link:hover,
+.paper-link:focus-visible { text-decoration: underline; }
+
 .publication p {
   margin: 0;
   color: var(--muted);
