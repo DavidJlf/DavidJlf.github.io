@@ -18,7 +18,7 @@ const zh = {
   publicationsEyebrow: "论文", publicationsTitle: "代表性成果",
   carrierSummary: "提出一种由 Carrier 引导的对抗生成框架，在实现定向攻击与跨模型迁移的同时，尽可能保留个性化主体特征。",
   figureCaption: "图 1：No-Carrier 基线与不同 Carrier 设置下的定性结果对比。", redactionNote: "因投稿尚未截止，论文标题暂作模糊处理。",
-  earlierWork: "早期成果", weatherMeta: "会议论文 · ICCEIC 2023", pdfMeta: "研究论文 · Applied and Computational Engineering 16 (2023)，159-165", patentMeta: "专利申请 · MC23-P10075",
+  earlierWork: "早期成果", earlierWorkNote: "完成这些工作时，我还是一名高中生，正值生成式 AI 浪潮到来之前——回头看，技术世界竟已变化得如此之快。", weatherMeta: "会议论文 · ICCEIC 2023", pdfMeta: "研究论文 · Applied and Computational Engineering 16 (2023)，159-165", patentMeta: "专利申请 · MC23-P10075",
   projectsEyebrow: "代表项目", projectsTitle: "从算法模型到实际应用", ml: "机器学习", pvTitle: "超短期光伏功率预测", pvText: "基于 CNN-LSTM 构建光伏功率超短期时间序列预测与分析流程。",
   coinCategory: "网络安全", coinTitle: "COFE Coin 安全机制优化", coinText: "围绕 COFE Coin 的安全机制开展分析，梳理潜在系统风险，并提出增强其安全防护体系的改进方案。", coinMeta: "数字货币 · 安全分析 · 机制设计",
   securitySystems: "安全系统", dashboardTitle: "集中式安全态势仪表盘", dashboardText: "面向管理层设计安全仪表盘，集中展示安全事件、系统漏洞与组织风险等关键信息。",

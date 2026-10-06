@@ -454,6 +454,14 @@ h3 { font-size: 24px; }
   border-bottom: 1px solid var(--line);
 }
 
+.earlier-work-note {
+  max-width: 860px;
+  margin: 10px 0 18px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 .publication-compact { padding-block: 24px; }
 .publication-compact h3 { margin-bottom: 5px; font-size: clamp(20px, 2vw, 27px); }
 .publication-compact p { font-size: 15px; }
