@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://davidjlf.github.io/sitemap.xml
+Sitemap: https://dav1.is-a.dev/sitemap.xml
