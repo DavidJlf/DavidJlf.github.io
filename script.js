@@ -6,7 +6,7 @@ const languageToggle = document.querySelector("#language-toggle");
 const zh = {
   skip: "跳转到主要内容", navResearch: "研究方向", navPublications: "论文", navProjects: "项目", navTeaching: "助教经历", navContact: "联系我",
   heroEyebrow: "AI 安全 · 生成模型 · 鲁棒人工智能", heroTitle: "致力于构建可控、鲁棒的人工智能系统。",
-  heroIntroBefore: "我是马里兰大学本科生，目前在 ", heroIntroAfter: " 的指导下从事对抗攻击及相关人工智能研究。我希望将现有工作从对抗生成进一步拓展到生成模型安全、证据驱动的人工智能与可信自主系统等更广泛的问题。",
+  heroIntroBefore: "我是马里兰大学本科生，目前在 ", heroIntroAfter: " 的指导下研究对抗机器学习与生成模型安全。我的研究关注对抗证据如何在生成系统中形成、迁移并被模型理解，并希望进一步将可控、鲁棒的人工智能拓展到自主系统与具身智能。",
   explore: "了解我的研究", resume: "简历", focusLabel: "研究重点", focusValue: "对抗生成", basedLabel: "现居", basedValue: "美国马里兰州大学公园市",
   openStatus: "正在积极寻找博士研究机会",
   researchEyebrow: "研究方向", researchTitle: "当前研究", researchLead: "我的研究涵盖生成模型安全、对抗机器学习、神经计算鲁棒性，以及自动驾驶系统的证据化验证。",
@@ -17,7 +17,7 @@ const zh = {
   ongoing: "在研项目", snnTitle: "脉冲神经网络（SNN）鲁棒性", snnP1: "我实现并评估脉冲神经网络（SNN），自动执行不同模型检查点与参数配置下的实验，并调试攻击、检测和重编程流程。",
   snnP2: "研究指标包括 SNN 鲁棒性、检测器表现、脉冲时序活动、推理延迟与计算开销；实验框架也可扩展至新的数据集和攻击方法。",
   emergingResearch: "正在发展的研究方向", drivingTitle: "基于智能体的自动驾驶场景验证", drivingP1: "我正在开发一套基于智能体的工作流程，将真实事故报告和驾驶场景描述转换为可执行场景，并在 CARLA 中运行仿真。", drivingP2: "该流程结合基于原始证据的事实提取、OpenDRIVE/OpenSCENARIO 生成、轨迹检查、视觉复核与证据驱动修复，用于评估仿真行为是否忠实于原始证据。", drivingTag: "自动驾驶", agentTag: "AI 智能体", validationTag: "场景验证",
-  backgroundCarrierTitle: "背景感知的 Carrier 融合与 LoRA 敏感型对抗证据", backgroundCarrierP1: "我希望研究如何将 Carrier 更自然地融入场景背景，使其作用更多依赖模型对背景语义和整体上下文的理解，而不是显眼的前景提示。", backgroundCarrierP2: "该方向将分析背景构图、语义一致性、Carrier 位置，以及主体专属 LoRA 或其权重变化如何重新分配对抗证据，并进一步影响主体保持与跨模型迁移。", contextTag: "上下文理解", backgroundTag: "背景融合", loraVariationTag: "LoRA 变化", evidenceTag: "对抗证据",
+  backgroundCarrierTitle: "背景感知的 Carrier 融合与对抗证据", backgroundCarrierP1: "我希望研究如何将 Carrier 更自然地融入场景背景，使其作用更多依赖模型对背景语义和整体上下文的理解，而不是显眼的前景提示。", contextTag: "上下文理解", backgroundTag: "背景融合", evidenceTag: "对抗证据",
   publicationsEyebrow: "论文", publicationsTitle: "代表性研究成果",
   carrierPaperTitle: "让载体承载攻击：对抗图像生成中的主体保持",
   aistatsPaperTitle: "重新审视适配器合并中的 LoRA 间正交性：来自正交蒙特卡洛 Dropout 的启示",
