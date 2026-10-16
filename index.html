@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20261006-3" />
+  <link rel="stylesheet" href="styles.css?v=20261016-1" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -53,7 +53,7 @@
   </script>
   <script data-goatcounter="https://dav1.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="9e9aab94-44b0-4048-854e-b0b2ff169e87"></script>
-  <script defer src="script.js?v=20261016-1"></script>
+  <script defer src="script.js?v=20261016-2"></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
@@ -74,7 +74,7 @@
         <p class="eyebrow" data-i18n="heroEyebrow">AI Security · Generative Models · Robust AI</p>
         <p class="name-line">Linfeng Jiang · 蒋霖锋 · Dav1</p>
         <h1 id="hero-title" data-i18n="heroTitle">Building controllable and robust AI systems.</h1>
-        <p class="hero-intro"><span data-i18n="heroIntroBefore">I am an undergraduate student at the University of Maryland, currently working on adversarial attacks and related AI research under the guidance of </span><a class="advisor-link" href="https://andi.ac" target="_blank" rel="noreferrer"><strong>Andi Zhang</strong></a><span data-i18n="heroIntroAfter">.</span></p>
+        <p class="hero-intro"><span data-i18n="heroIntroBefore">I am an undergraduate student at the University of Maryland, currently working on adversarial attacks and related AI research under the guidance of </span><a class="advisor-link" href="https://andi.ac" target="_blank" rel="noreferrer"><strong>Andi Zhang</strong></a><span data-i18n="heroIntroAfter">. I hope to extend this work from adversarial generation toward broader questions in secure generative models, evidence-grounded AI, and dependable autonomous systems.</span></p>
         <div class="hero-actions"><a class="button button-primary" href="#research" data-i18n="explore">Explore My Research</a><a class="button button-secondary" href="assets/Linfeng_Jiang_Resume.pdf" target="_blank" rel="noreferrer" data-i18n="resume">Resume</a><a class="button button-secondary" href="https://github.com/DavidJlf" target="_blank" rel="noreferrer">GitHub ↗</a></div>
       </div>
       <aside class="hero-panel reveal" aria-label="Research profile">
@@ -99,7 +99,7 @@
           <p class="card-kicker" data-i18n="ongoing">Ongoing research</p><h3 data-i18n="dlmTitle">Adversarial Attacks on Diffusion Language Models</h3>
           <p data-i18n="dlmP1">I investigate the security of diffusion language models, focusing on how adversarial inputs and generation-time manipulations affect model behavior, output reliability, and safety mechanisms.</p>
           <p data-i18n="dlmP2">I study attack design and evaluation settings while comparing the attack surfaces and robustness properties of diffusion-based generation with conventional autoregressive language models.</p>
-          <div class="tag-row"><span>Diffusion language models</span><span>Adversarial attacks</span><span>AI security</span></div>
+          <div class="tag-row"><span data-i18n="dlmTag">Diffusion language models</span><span data-i18n="attackTag">Adversarial attacks</span><span data-i18n="aiSecurityTag">AI security</span></div>
         </div></article>
         <article class="research-card reveal"><div class="card-index">03</div><div>
           <p class="card-kicker" data-i18n="ongoing">Ongoing research</p><h3 data-i18n="snnTitle">Spiking Neural Network (SNN) Robustness</h3>
@@ -108,10 +108,16 @@
           <div class="tag-row"><span>PyTorch</span><span>SNNs</span><span>Reprogramming</span><span>Robustness evaluation</span></div>
         </div></article>
         <article class="research-card reveal"><div class="card-index">04</div><div>
-          <p class="card-kicker" data-i18n="emergingResearch">Emerging research direction</p><h3 data-i18n="drivingTitle">Agent-Based Autonomous Driving Scenario Validation</h3>
+          <p class="card-kicker" data-i18n="ongoing">Ongoing research</p><h3 data-i18n="drivingTitle">Agent-Based Autonomous Driving Scenario Validation</h3>
           <p data-i18n="drivingP1">I am developing an agent-based workflow that converts real-world crash reports and driving descriptions into executable scenarios and runs them in CARLA.</p>
           <p data-i18n="drivingP2">The pipeline combines source-grounded fact extraction, OpenDRIVE/OpenSCENARIO generation, trajectory checks, visual review, and evidence-guided repair to assess whether simulated behavior remains faithful to the source evidence.</p>
-          <div class="tag-row"><span>Autonomous driving</span><span>AI agents</span><span>CARLA</span><span>Scenario validation</span></div>
+          <div class="tag-row"><span data-i18n="drivingTag">Autonomous driving</span><span data-i18n="agentTag">AI agents</span><span>CARLA</span><span data-i18n="validationTag">Scenario validation</span></div>
+        </div></article>
+        <article class="research-card reveal"><div class="card-index">05</div><div>
+          <p class="card-kicker" data-i18n="emergingResearch">Emerging research direction</p><h3 data-i18n="backgroundCarrierTitle">Background-Aware Carrier Integration and LoRA-Sensitive Adversarial Evidence</h3>
+          <p data-i18n="backgroundCarrierP1">I hope to explore how carriers can be integrated more naturally into scene backgrounds, allowing their role to depend on a model's understanding of background semantics and global context rather than conspicuous foreground cues.</p>
+          <p data-i18n="backgroundCarrierP2">This direction examines how background composition, semantic consistency, carrier placement, and changes in subject-specific LoRA adapters or weights reshape the distribution of adversarial evidence, with implications for subject preservation and cross-model transfer.</p>
+          <div class="tag-row"><span data-i18n="contextTag">Context understanding</span><span data-i18n="backgroundTag">Background integration</span><span>Carrier</span><span data-i18n="loraVariationTag">LoRA variation</span><span data-i18n="evidenceTag">Adversarial evidence</span></div>
         </div></article>
       </div>
     </section>

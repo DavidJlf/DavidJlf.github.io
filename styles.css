@@ -334,6 +334,13 @@ h3 { font-size: 24px; }
   background: linear-gradient(135deg, #f5fafc, white 52%);
 }
 
+.research-card:nth-child(odd) {
+  border-color: rgba(29, 91, 134, 0.23);
+  background: linear-gradient(135deg, #f5fafc, white 52%);
+}
+
+.research-card:nth-child(even) { background: white; }
+
 .card-index {
   color: var(--blue);
   font-family: "Manrope", sans-serif;
